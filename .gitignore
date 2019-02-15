@@ -1,0 +1,10 @@
+.DS_Store
+.cache
+.eslintcache
+.opt-in
+.opt-out
+coverage
+dist
+node_modules
+sketch-json
+data

@@ -1,0 +1,42 @@
+{
+  "name": "@helpscout/colorway-sketch",
+  "version": "0.0.0",
+  "description": "Generates a JSON color scheme from a Sketch file",
+  "main": "src/index.js",
+  "bin": {
+    "colorway-sketch": "src/cli.js"
+  },
+  "private": false,
+  "scripts": {
+    "prestart": "zero prestart",
+    "build": "zero build",
+    "lint": "zero lint",
+    "start": "node src/cli.js",
+    "test": "node src/cli.js",
+    "format": "zero format",
+    "validate": "zero validate",
+    "release": "zero release",
+    "version": "zero build",
+    "precommit": "zero pre-commit"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@helpscout/zero": "2.0.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "dash-get": "^1.0.2",
+    "fast-glob": "^2.2.6",
+    "fs-extra": "^7.0.1",
+    "mkdirp": "^0.5.1",
+    "rgb-hex": "^2.1.0",
+    "sketch-json": "^1.2.0"
+  }
+}
