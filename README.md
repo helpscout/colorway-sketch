@@ -1,5 +1,8 @@
 # 🎨 Colorway (Sketch)
 
+[![Build Status](https://travis-ci.org/helpscout/colorway-sketch.svg?branch=master)](https://travis-ci.org/helpscout/colorway-sketch)
+[![npm version](https://badge.fury.io/js/%40helpscout%2Fcolorway-sketch.svg)](https://badge.fury.io/js/%40helpscout%2Fcolorway-sketch)
+
 > Generates a JSON color scheme from a Sketch file
 
 ## Usage
